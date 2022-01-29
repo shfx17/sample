@@ -1,0 +1,219 @@
+/* STYLE SCSS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url("../assets/seacost.jpg") no-repeat center;
+  background-size: cover;
+  height: 760px;
+  width: 100%;
+}
+
+.header__menu-logo {
+  font-size: 50px;
+  margin: 0;
+  padding-left: 130px;
+  padding-top: 32px;
+  font-weight: 800;
+}
+
+.header__menu-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header__menu-list li {
+  display: inline-block;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-top: 60px;
+  padding-left: 90px;
+}
+
+.header__menu-list a {
+  text-decoration: none;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.header__description {
+  width: 19%;
+  float: right;
+  padding: 190px 510px 0 0;
+}
+
+.header__description-title {
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  line-height: 64px;
+  margin: 0;
+}
+
+.header__description-under {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__description-under-p {
+  font-size: 21px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.header__description-under-btn {
+  padding: 5px 30px 6px 30px;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  background: none;
+}
+
+.title {
+  padding-top: 32px;
+  max-width: 80%;
+  padding-left: 260px;
+  padding-bottom: 94px;
+}
+
+.title__title {
+  font-size: 49px;
+  color: #53686c;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+.title__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title__description-left {
+  max-width: 39%;
+  padding-right: 28px;
+}
+
+.title__description-right {
+  max-width: 39%;
+}
+
+.title__description p {
+  color: #575756;
+  font-weight: 300;
+}
+
+.another-title {
+  background-color: #f9f9f9;
+  max-width: 60%;
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.another-title__title {
+  font-size: 49px;
+  color: #53686c;
+  font-weight: 700;
+  margin: 0;
+}
+
+.another-title__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.another-title__description-img {
+  margin: 0;
+  padding: 0;
+  padding-top: 23px;
+}
+
+.another-title__description-p {
+  margin: 0;
+  padding: 0;
+  padding-left: 40px;
+}
+
+.another-title__description-p p {
+  font-size: 16px;
+  color: #575756;
+  font-weight: 300;
+}
+
+.another-title p {
+  padding-top: 14px;
+  margin: 0;
+  color: #575756;
+  font-weight: 300;
+}
+
+.another-title__button {
+  padding-top: 87px;
+  text-align: center;
+}
+
+.another-title__button-btn {
+  padding: 5px 30px 6px 30px;
+  font-size: 24px;
+  color: #627478;
+  font-weight: 800;
+  border-radius: 20px;
+  background: none;
+  text-transform: uppercase;
+  border: 3px solid #627478;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 31px;
+  padding-bottom: 28px;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.gallery img {
+  height: 403px;
+  width: 403px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  background-color: #536467;
+  padding: 35px;
+}
+/*# sourceMappingURL=style.css.map */
